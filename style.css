@@ -1,0 +1,39 @@
+#floating{
+   float: right;
+}
+body{
+    background-color: rgb(252, 97, 8);
+}
+h1{
+    background-color: rgb(29, 10, 133);
+    color: rgb(102, 4, 4);
+}
+p{
+ font-size: 30px;
+ color: aqua;   
+ padding: 10px;
+}
+canvas{
+border: 3px ridge black;
+border-radius: 15px; 
+animation-name: weapon;
+animation-duration:4.2s ;
+animation-iteration-count: infinite;   
+}
+@keyframes weapon{
+from{
+    box-shadow:1px 1px 50px rgb(4, 117, 98)  ;
+}   
+to{
+    box-shadow:1px 1px 50px rgb(39, 34, 109)  ;
+}    
+}
+#score{
+font: size 36px;
+margin-left:21px;
+}
+#timer{
+font-size:35px;
+margin-right:20px;
+float:right;
+}
